@@ -152,10 +152,15 @@ const About = () => {
 
             <p>
               Fast-forward to today, and I've had the privilege of{' '}
-              <a href="https://profiles.wordpress.org/dharmin16/">WordPress core contributor</a> and
-              working at <a href="https://rtcamp.com/">rtCamp a WordPress VIP Agency.</a> My main
-              focus these days is building accessible, inclusive products and digital experiences as{' '}
-              <a href="#about">a freelancer</a> for a variety of clients.
+              <a href="https://profiles.wordpress.org/dharmin16/" target="_blank" rel="noreferrer">
+                WordPress core contributor
+              </a>{' '}
+              and working at{' '}
+              <a href="https://rtcamp.com/" target="_blank" rel="noreferrer">
+                rtCamp a WordPress VIP Agency.
+              </a>{' '}
+              My main focus these days is building accessible, inclusive products and digital
+              experiences as <a href="#about">a freelancer</a> for a variety of clients.
             </p>
 
             <p>Here are a few technologies I've been working with recently:</p>
