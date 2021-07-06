@@ -215,7 +215,7 @@ const Projects = () => {
     const { github, external, title, tech } = frontmatter;
 
     return (
-      <div className="project-inner">
+      <div className="project-inner" id="projects">
         <header>
           <div className="project-top">
             <div className="folder">
@@ -241,7 +241,10 @@ const Projects = () => {
           </div>
 
           <h3 className="project-title">
-            <a href={external} target="_blank" rel="noreferrer">
+            <a
+              href={external ? external : github ? github : '#projects'}
+              target="_blank"
+              rel="noreferrer">
               {title}
             </a>
           </h3>

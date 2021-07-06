@@ -335,7 +335,7 @@ const Featured = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="featured">
       <h2 className="numbered-heading" ref={revealTitle}>
         Some Things I’ve Built
       </h2>
@@ -354,7 +354,12 @@ const Featured = () => {
                     <p className="project-overline">Featured Project</p>
 
                     <h3 className="project-title">
-                      <a href={external}>{title}</a>
+                      <a
+                        href={external ? external : github ? github : '#projects'}
+                        target="_blank"
+                        rel="noreferrer">
+                        {title}
+                      </a>
                     </h3>
 
                     <div
@@ -386,7 +391,10 @@ const Featured = () => {
                 </div>
 
                 <div className="project-image">
-                  <a href={external ? external : github ? github : '#'}>
+                  <a
+                    href={external ? external : github ? github : '#projects'}
+                    target="_blank"
+                    rel="noreferrer">
                     <GatsbyImage image={image} alt={title} className="img" />
                   </a>
                 </div>

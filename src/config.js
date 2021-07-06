@@ -27,7 +27,7 @@ module.exports = {
     },
     {
       name: 'Work',
-      url: '/#projects',
+      url: '/#featured',
     },
     {
       name: 'Contact',
