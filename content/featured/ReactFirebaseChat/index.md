@@ -3,7 +3,7 @@ date: '1'
 title: 'Realtime Group Chat Application using ReactJS and Firebase'
 cover: './demo.png'
 github: 'https://github.com/mibhumi/chat-room/tree/prototype'
-external: 'https://votsep-27394.firebaseapp.com/'
+external: 'https://chat.saiko.codes/'
 tech:
   - ReactJS
   - Firestore
