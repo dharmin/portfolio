@@ -5,7 +5,7 @@ module.exports = {
     title: 'Dharmin Shah - A Freelance Web Engineer',
     description:
       'Dharmin Shah is a web engineer who specializes in building (and occasionally designing) exceptional web experiences.',
-    siteUrl: 'https://dharmin.tech', // No trailing slash allowed!
+    siteUrl: 'https://dharmin.dev', // No trailing slash allowed!
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@dharmin17',
   },
@@ -152,7 +152,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-174978425-3',
+        trackingId: 'UA-174978425-4',
       },
     },
   ],
