@@ -64,7 +64,7 @@ const Hero = () => {
   const four = (
     <p>
       I'm a India-based web engineer who specializes in building (and occasionally designing)
-      exceptional web experiences. Currently, I'm an working as{' '}
+      exceptional web experiences. Currently, I'm working as{' '}
       <a href="#about" target="_blank" rel="noreferrer">
         freelance
       </a>{' '}
