@@ -63,7 +63,7 @@ const Hero = () => {
   const three = <h3 className="big-heading">I build things for the web.</h3>;
   const four = (
     <p>
-      I'm a India-based web engineer who specializes in building (and occasionally designing)
+      I'm India-based web engineer who specializes in building (and occasionally designing)
       exceptional web experiences. Currently, I'm working as{' '}
       <a href="#about" target="_blank" rel="noreferrer">
         freelance
