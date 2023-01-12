@@ -22,6 +22,7 @@ const StyledText = styled.div`
   ul.skills-list {
     display: grid;
     grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
     overflow: hidden;
@@ -64,7 +65,6 @@ const StyledPic = styled.div`
 
     &:hover,
     &:focus {
-      background: transparent;
       outline: 0;
 
       &:after {
@@ -163,7 +163,16 @@ const About = () => {
               experiences as <a href="#about">a freelancer</a> for a variety of clients.
             </p>
 
-            <p>Here are a few technologies I've been working with recently:</p>
+            <p>
+              I also recently{' '}
+              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
+                launched a course
+              </a>{' '}
+              that covers everything you need to build a web app with the Spotify API using Node
+              &amp; React.
+            </p>
+
+            <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
 
           <ul className="skills-list">
